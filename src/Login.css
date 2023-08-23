@@ -1,0 +1,136 @@
+body{
+	font-family:Arial, sans-serief;
+	background-color:#E5E5E5;
+	margin:0px;
+	padding:0px;
+}
+div.loginBox
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position:relative;
+	margin-top:10%;	
+	text-align:center;
+}
+
+.noteDiv{
+	color:gray;
+	font-family:Arial;
+	width:395px;
+	text-align:left;
+	margin:0px auto;
+	font-size:14px;
+}
+#note{
+	display:inline-block;
+	vertical-align:top;
+	_display:inline;
+	_zoom:1;
+	width:50px;
+	font-weight:bold;
+}
+#tip{
+	display:inline-block;
+	vertical-align:top;
+	_display:inline;
+	_zoom:1;
+	width:340px;
+	font-weight:bold;
+}
+div.panelThre{
+	margin-top:10px;
+}
+div.picDiv{
+	width:395px;
+	height:276px;
+	background:url(../login/loginbg.png);
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input.pcPassword{
+	width:300px;
+	height:50px;
+	line-height:50px;
+	padding-left:20px;
+}
+div.PCBtnDiv{
+	position:relative;
+	margin-top:20px;
+}
+img.logoPic{
+	width:100%;
+}
+#copyright{
+	-webkit-text-size-adjust:none;
+	font-size:8px;
+	color:#6a6969;
+	font-family:"Verdana";
+	font-weight:normal;
+	margin-top:40px;
+	display:inline-block;
+}
+.topLogo{
+	background:url(../login/top_bg.jpg);
+	height:90px;
+}
+.style1 {
+	font-family: "Arial";
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-right: 50;
+	text-align: right;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.style2 {
+	font-size: 12px;
+	font-family: "Arial";
+	font-weight: bold;
+	padding-right: 50;
+	text-align: right;
+	white-space: nowrap;
+	color: #FFFFFF;
+}
+ul{
+	padding:60px 0px 0px 0px;
+	margin:0px;
+	list-style:none;
+}
+ul li{
+	height:34px;
+	width:222px;
+}
+li.unLi{
+	background:url(../login/loginUser.png);
+}
+li.pwLi{
+	background:url(../login/loginPwd.png);
+}
+li.blank{
+	height:15px;
+}
+input.text{
+	border:0px;
+	height:26px;
+	line-height:26px;
+	width:175px;
+	padding:0px;
+	margin:4px 0px 0px 40px;
+	font-size:14px;
+	color:#6a6969;
+	font-family:"Verdana","Arial";
+	font-weight:normal;
+}
+label.loginBtn{
+	height:34px;
+	display:inline-block;
+	width:113px;
+	margin-top:30px;
+	background:url(../login/loginBtn.png);
+	cursor:pointer;
+}
